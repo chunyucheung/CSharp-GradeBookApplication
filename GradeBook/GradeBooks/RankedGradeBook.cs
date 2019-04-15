@@ -22,9 +22,9 @@ namespace GradeBook.GradeBooks
                 return 'A';
             else if (descendingGrades[(threshold*2)-1] <= averageGrade)
                 return 'B';
-            else if (descendingGrades[(threshold*4)-1] <= averageGrade)
+            else if (descendingGrades[(threshold*3)-1] <= averageGrade)
                 return 'C';
-            else if (descendingGrades[(threshold*6)-1] <= averageGrade)
+            else if (descendingGrades[(threshold*4)-1] <= averageGrade)
                 return 'D';
             else
                  return 'F';
